@@ -115,7 +115,7 @@ function makeid(length) {
 /*==============================================
                     URLS
 ==============================================*/
-let host = location.href
+let host      = location.href
 const myArray = host.split("/")
 
 if (myArray[2] == "localhost") {
@@ -124,13 +124,8 @@ if (myArray[2] == "localhost") {
     var urlBaseApp = dominioBase + "siat-systems-app/index.php/"
     var urlBaseCdn = dominioBase + "siat-systems-cdn/siat-CDN-app/"
 } else {
-    var dominioBase = "gobcom.mx/"
+    var dominioBase = "siatgobcom.mx/"
     var urlBaseApi = "//api." + dominioBase
     var urlBaseApp = "//app." + dominioBase
     var urlBaseCdn = "//cdn." + dominioBase
 }
-/*
-https://app.gobcom.mx/opiniones/
-https://api.gobcom.mx/opiniones/
-https://cdn.gobcom.mx/
-*/
