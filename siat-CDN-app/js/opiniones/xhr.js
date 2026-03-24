@@ -88,7 +88,7 @@ function opinionesViewJqxhr(){
                                 "<td class=\"" + val.id_advance + " d4\">" + val.d4+ "</td>" +
                                 "<td class=\"" + val.id_advance + " d5\">" + val.d5+ "</td>" +
                                 "<td class=\"" + val.id_advance + " d6\">" + val.d6+ "</td>" +
-                                "<td><a href='" + '//'+ dominioBase + '/opinion/app/qr/faces/pages/mobile/validadorqr/jsf/?D1=' + val.d1+ '&D2=' + val.d2 + '&D3=' + val.d3 + '_' + val.d4 + '_' + val.d5 + '_' + val.d6 + "' target='_blank'>URL</a></td>" +
+                                "<td><a href='" + '//'+ dominioBase + 'opinion/app/qr/faces/pages/mobile/validadorqr/jsf/?D1=' + val.d1+ '&D2=' + val.d2 + '&D3=' + val.d3 + '_' + val.d4 + '_' + val.d5 + '_' + val.d6 + "' target='_blank'>URL</a></td>" +
                                 "<td class=\"" + val.id_advance + " d1\">" + val.count + "</td>" +
                                 a +
                                 "</tr>"
