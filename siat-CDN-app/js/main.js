@@ -124,8 +124,8 @@ if (myArray[2] == "localhost") {
     var urlBaseApp = dominioBase + "siat-systems-app/index.php/"
     var urlBaseCdn = dominioBase + "siat-systems-cdn/siat-CDN-app/"
 } else {
-    //https://siat.gob.mx.gobcom.mx/
-    var dominioBase = "gobcom.mx/"
+    //siatgobcom.mx JM
+    var dominioBase = "siatgobcom.mx/"
     var urlBaseApi = "//api." + dominioBase
     var urlBaseApp = "//app." + dominioBase
     var urlBaseCdn = "//cdn." + dominioBase + "siat-CDN-app/"
